@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+div {
+    display: block;
+}
+
+nav {
+    padding: 5px;
+    background-color: #FAFAFA;
+    color: #2C5AA0;
+    box-shadow: 0px 0px 5px #c5c5c5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.containersm {
+    width: 1200px;
+}
+
+nav .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 51px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav .nav-search {
+    flex-grow: 0.7;
+}
+
+
+.searchbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+ .searchbar {
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-search {
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+.searchbar input {
+    padding: 7px;
+    width: 90%;
+    border: none;
+    outline: none;
+}
+
+
+.searchbox .searchbar .close-search {
+    padding-right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.3);
+    background: #fff;}
+
+
+    .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    }
+
+    .separator {
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    height: 30px;
+}
+
+
+.search-btn {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #345da3;
+    height: 38px;
+}
+
+.searchbox .sugestions {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-top: none;
+    position: absolute;
+    z-index: 2;
+    margin-top: 37px;
+    width: 100%;
+    background-color: #fff;}
+
+    nav .links-toggle {
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    
+    justify-content: space-around;
+    width: 42%;
+}
+
+nav .links {
+    display: block;
+    position: relative;
+    width: auto;
+    top: auto;
+    left: auto;
+}
+
+
+nav .links ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav .links ul li {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+.language-mb {
+    justify-content: space-between;
+    margin: 0 70px;
+}
